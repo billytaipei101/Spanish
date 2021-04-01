@@ -43,7 +43,7 @@ params:
     - entry
     - post
     - posts
-  menu_style: open-menu
+  menu_style: slide-menu   # two options include open-menu & slide-menu
   tag_manager_container_id: ''
   title: Hugo Techdoc Theme
   version: 0.9.7
@@ -61,8 +61,8 @@ markup:
     renderer:
       unsafe: yes
   tableOfContents:
-    endLevel: 6
-    ordered: no
+    endLevel: 7
+    ordered: yes
     startLevel: 2
 outputs:
   home:
